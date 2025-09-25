@@ -74,47 +74,11 @@ POST
 
 Create a new agent.
 
-/agents
-
-GET
-
-Retrieve all agents.
-
-/agents/{id}
-
-GET
-
-Retrieve a single agent by ID.
-
 /customers
 
 POST
 
-Create a new customer (with a linked agent).
-
-/customers
-
-GET
-
-Retrieve all customers.
-
-/customers/{id}
-
-GET
-
-Retrieve a single customer by ID.
-
-/customers/{id}
-
-PUT
-
-Update an existing customer.
-
-/customers/{id}
-
-DELETE
-
-Delete a customer.
+Create a new customer (with an agent link).
 
 /customers/{id}/details
 
